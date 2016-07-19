@@ -1,0 +1,6 @@
+{
+  "name": "Tk-Knob",
+  "tagline": "Knob widget for Perl Tk",
+  "body": "#Tk::Knob#\r\n\r\nThis archive contains the distribution Tk::Knob,\r\nversion 0.001\r\nto build knob widgets that can rotate continuously and indefinitely in\r\nany direction under Tk.\r\n\r\nRead the file *INSTALL* for installation instructions.\r\n\r\nRead *lib/Tk/Knob.pm* for usage instructions and other information.\r\n\r\nThis software is copyright (c) 2016 by W. Luis Mochan.\r\n\r\nThis is free software; you can redistribute it and/or modify it under\r\nthe same terms as the Perl 5 programming language system itself.\r\n\r\nThis work was partially supported by DGAPA-UNAM under grants IN108413\r\nand IN113016.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
