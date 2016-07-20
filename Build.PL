@@ -14,7 +14,7 @@ my $builder = Module::Build->new(
 	],
     dist_version_from => 'lib/Tk/Knob.pm',
     license    => 'perl',
-    release_status => 'testing', #stable, testing or unstable
+    release_status => 'stable', #stable, testing or unstable
     requires   => { 
 	"Tk" => 0,
     },

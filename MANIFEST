@@ -8,10 +8,11 @@ Changes
 ignore.txt
 INSTALL
 LICENSE
-README
+README.md
 t/00-load.t
 t/author-critic.t
 t/author-pod-syntax.t
+t/create.t
 t/manifest.t
 t/author-pod-coverage.t
 t/pod.t
