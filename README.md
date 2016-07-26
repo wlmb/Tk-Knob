@@ -1,13 +1,13 @@
-#Tk::Knob#
+#Tk::MTDial#
 
-This archive contains the distribution Tk::Knob,
+This archive contains the distribution Tk::MTDial,
 version 0.001
-to build knob widgets that can rotate continuously and indefinitely in
+to build dial widgets that can rotate continuously and indefinitely in
 any direction under Tk.
 
 Read the file *INSTALL* for installation instructions.
 
-Read *lib/Tk/Knob.pm* for usage instructions and other information.
+Read *lib/Tk/MTDial.pm* for usage instructions and other information.
 
 This software is copyright (c) 2016 by W. Luis Mochan.
 

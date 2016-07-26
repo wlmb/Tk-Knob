@@ -8,7 +8,7 @@ use Test::More;
 plan tests => 1;
 
 BEGIN {
-    use_ok( 'Tk::Knob' ) || print "Bail out!\n";
+    use_ok( 'Tk::MTDial' ) || print "Bail out!\n";
 }
 
-diag( "Testing Knob $Tk::Knob::VERSION, Perl $], $^X" );
+diag( "Testing Tk::MTDial $Tk::MTDial::VERSION, Perl $], $^X" );

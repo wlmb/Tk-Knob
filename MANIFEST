@@ -1,5 +1,5 @@
 Build.PL
-lib/Tk/Knob.pm
+lib/Tk/MTDial.pm
 MANIFEST			This list of files
 Makefile.PL
 META.yml

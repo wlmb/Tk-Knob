@@ -21,7 +21,7 @@ use vars '@class';
 BEGIN
   {
     @class = (
-	'Knob'
+	'MTDial'
    );
 
    require Tk if ($^O eq 'cygwin');
@@ -94,10 +94,10 @@ foreach my $class (@class)
             eval { $w->pack; };
 	    is ($@, "", "Can pack a $class widget");
 	}
-	if($w->isa('Tk::Knob'))
+	if($w->isa('Tk::MTDial'))
 	{
-	    eval { $w->createKnob; };
-	    is ($@, "", "Can createKnob, $class widget");
+	    eval { $w->createMTDial; };
+	    is ($@, "", "Can createMTDial, $class widget");
 	}
 	note "$class update";
 	eval { $mw->update; };

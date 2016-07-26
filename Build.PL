@@ -1,5 +1,5 @@
 # Build.PL
-# Use to build the package Tk::Knob
+# Use to build the package Tk::MTDial
 our $VERSION = '0.001';
     
 use strict;
@@ -7,12 +7,12 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name=> 'Tk::Knob',
-    dist_name  => 'Tk-Knob',
+    module_name=> 'Tk::MTDial',
+    dist_name  => 'Tk-MTDial',
     dist_author=> [
 	'W. Luis Mochan <mochan@fis.unam.mx>',
 	],
-    dist_version_from => 'lib/Tk/Knob.pm',
+    dist_version_from => 'lib/Tk/MTDial.pm',
     license    => 'perl',
     release_status => 'stable', #stable, testing or unstable
     requires   => { 
@@ -25,7 +25,7 @@ my $builder = Module::Build->new(
     configure_requires => {
 	'Module::Build'                      => '0.4004',
     },
-    add_to_cleanup  => [ 'Tk-Knob-*'],
+    add_to_cleanup  => [ 'Tk-MTDial-*'],
     create_makefile_pl => 'small',
     );
 $builder->create_build_script();

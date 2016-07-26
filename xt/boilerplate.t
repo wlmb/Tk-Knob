@@ -50,7 +50,7 @@ sub module_boilerplate_ok {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib/Tk/Knob.pm');
+  module_boilerplate_ok('lib/Tk/MTDial.pm');
 
 
 #}
